@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 header {
-    background-color: #253b6e;
+    background-color: #bd3970;
     color: #fff;
     padding: 15px;
     text-align: center;
@@ -45,18 +45,12 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 50px;
-    background: url('Photos/1.jpeg') no-repeat center center/cover;
-    animation: changeBackground 20s infinite;
+    background: url('Photos/5\ landscape.jpg') no-repeat center center/cover;
+
 
 }
 
-@keyframes changeBackground {
-    0% { background: url('Photos/1.jpeg') no-repeat center center/cover; }
-    25% { background: url('Photos/2.jpeg') no-repeat center center/cover; }
-    50% { background: url('Photos/3.jpeg') no-repeat center center/cover; }
-    75% { background: url('Photos/4.jpeg') no-repeat center center/cover; }
-    100% { background: url('Photos/1.jpeg') no-repeat center center/cover; }
-}
+
 /* Buttons */
 .btn {
     display: inline-block;
