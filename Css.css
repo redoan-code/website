@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+header {
+    background-color: #253b6e;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: rgb(84, 97, 119);
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+    border-radius: 5px;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('Photos/1.jpeg') no-repeat center center/cover;
+    animation: changeBackground 20s infinite;
+
+}
+
+@keyframes changeBackground {
+    0% { background: url('Photos/1.jpeg') no-repeat center center/cover; }
+    25% { background: url('Photos/2.jpeg') no-repeat center center/cover; }
+    50% { background: url('Photos/3.jpeg') no-repeat center center/cover; }
+    75% { background: url('Photos/4.jpeg') no-repeat center center/cover; }
+    100% { background: url('Photos/1.jpeg') no-repeat center center/cover; }
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Layout */
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+}
+
+.flex-container {
+    image {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+.shop {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0e0e0;
+
+}
+.shop img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0e0e0;
+}
+.blog {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0e0e0;
+}
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0e0e0;
+}
